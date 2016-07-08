@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D60AF1D71D2F3C3F0055E4F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D60AF1D61D2F3C3F0055E4F5 /* main.m */; };
+		D60AF1DA1D2F3C3F0055E4F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D60AF1D91D2F3C3F0055E4F5 /* AppDelegate.m */; };
+		D60AF1E01D2F3C3F0055E4F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60AF1DE1D2F3C3F0055E4F5 /* Main.storyboard */; };
+		D60AF1E31D2F3C3F0055E4F5 /* BoomNews.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D60AF1E11D2F3C3F0055E4F5 /* BoomNews.xcdatamodeld */; };
+		D60AF1E51D2F3C3F0055E4F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D60AF1E41D2F3C3F0055E4F5 /* Assets.xcassets */; };
+		D60AF1E81D2F3C3F0055E4F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60AF1E61D2F3C3F0055E4F5 /* LaunchScreen.storyboard */; };
+		D60AF1F11D2F3ED10055E4F5 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D60AF1F01D2F3ED10055E4F5 /* HomeViewController.m */; };
+		D60AF1F41D2F3EDE0055E4F5 /* MediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D60AF1F31D2F3EDE0055E4F5 /* MediaViewController.m */; };
+		D60AF1F71D2F3EF90055E4F5 /* TopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D60AF1F61D2F3EF90055E4F5 /* TopicViewController.m */; };
+		D60AF1FA1D2F3F0D0055E4F5 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D60AF1F91D2F3F0D0055E4F5 /* UserViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D60AF1D21D2F3C3F0055E4F5 /* BoomNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoomNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60AF1D61D2F3C3F0055E4F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D60AF1D81D2F3C3F0055E4F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D60AF1D91D2F3C3F0055E4F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D60AF1DF1D2F3C3F0055E4F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D60AF1E21D2F3C3F0055E4F5 /* BoomNews.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BoomNews.xcdatamodel; sourceTree = "<group>"; };
+		D60AF1E41D2F3C3F0055E4F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D60AF1E71D2F3C3F0055E4F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D60AF1E91D2F3C3F0055E4F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D60AF1EF1D2F3ED10055E4F5 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ../HomeViewController.h; sourceTree = "<group>"; };
+		D60AF1F01D2F3ED10055E4F5 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ../HomeViewController.m; sourceTree = "<group>"; };
+		D60AF1F21D2F3EDE0055E4F5 /* MediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MediaViewController.h; path = ../MediaViewController.h; sourceTree = "<group>"; };
+		D60AF1F31D2F3EDE0055E4F5 /* MediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MediaViewController.m; path = ../MediaViewController.m; sourceTree = "<group>"; };
+		D60AF1F51D2F3EF90055E4F5 /* TopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopicViewController.h; path = ../TopicViewController.h; sourceTree = "<group>"; };
+		D60AF1F61D2F3EF90055E4F5 /* TopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopicViewController.m; path = ../TopicViewController.m; sourceTree = "<group>"; };
+		D60AF1F81D2F3F0D0055E4F5 /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserViewController.h; path = ../UserViewController.h; sourceTree = "<group>"; };
+		D60AF1F91D2F3F0D0055E4F5 /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserViewController.m; path = ../UserViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D60AF1CF1D2F3C3F0055E4F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D60AF1C91D2F3C3F0055E4F5 = {
+			isa = PBXGroup;
+			children = (
+				D60AF1D41D2F3C3F0055E4F5 /* BoomNews */,
+				D60AF1D31D2F3C3F0055E4F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D60AF1D31D2F3C3F0055E4F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D60AF1D21D2F3C3F0055E4F5 /* BoomNews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D60AF1D41D2F3C3F0055E4F5 /* BoomNews */ = {
+			isa = PBXGroup;
+			children = (
+				D60AF1D81D2F3C3F0055E4F5 /* AppDelegate.h */,
+				D60AF1D91D2F3C3F0055E4F5 /* AppDelegate.m */,
+				D60AF1FB1D2F3FBE0055E4F5 /* 话题 */,
+				D60AF1FC1D2F3FBE0055E4F5 /* 视频 */,
+				D60AF1FD1D2F3FBE0055E4F5 /* 首页 */,
+				D60AF1FE1D2F3FBE0055E4F5 /* 用户 */,
+				D60AF1DE1D2F3C3F0055E4F5 /* Main.storyboard */,
+				D60AF1E41D2F3C3F0055E4F5 /* Assets.xcassets */,
+				D60AF1E61D2F3C3F0055E4F5 /* LaunchScreen.storyboard */,
+				D60AF1E91D2F3C3F0055E4F5 /* Info.plist */,
+				D60AF1E11D2F3C3F0055E4F5 /* BoomNews.xcdatamodeld */,
+				D60AF1D51D2F3C3F0055E4F5 /* Supporting Files */,
+			);
+			path = BoomNews;
+			sourceTree = "<group>";
+		};
+		D60AF1D51D2F3C3F0055E4F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D60AF1D61D2F3C3F0055E4F5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D60AF1FB1D2F3FBE0055E4F5 /* 话题 */ = {
+			isa = PBXGroup;
+			children = (
+				D60AF1F51D2F3EF90055E4F5 /* TopicViewController.h */,
+				D60AF1F61D2F3EF90055E4F5 /* TopicViewController.m */,
+			);
+			path = "话题";
+			sourceTree = "<group>";
+		};
+		D60AF1FC1D2F3FBE0055E4F5 /* 视频 */ = {
+			isa = PBXGroup;
+			children = (
+				D60AF1F21D2F3EDE0055E4F5 /* MediaViewController.h */,
+				D60AF1F31D2F3EDE0055E4F5 /* MediaViewController.m */,
+			);
+			path = "视频";
+			sourceTree = "<group>";
+		};
+		D60AF1FD1D2F3FBE0055E4F5 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				D60AF1EF1D2F3ED10055E4F5 /* HomeViewController.h */,
+				D60AF1F01D2F3ED10055E4F5 /* HomeViewController.m */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		D60AF1FE1D2F3FBE0055E4F5 /* 用户 */ = {
+			isa = PBXGroup;
+			children = (
+				D60AF1F81D2F3F0D0055E4F5 /* UserViewController.h */,
+				D60AF1F91D2F3F0D0055E4F5 /* UserViewController.m */,
+			);
+			path = "用户";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D60AF1D11D2F3C3F0055E4F5 /* BoomNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D60AF1EC1D2F3C3F0055E4F5 /* Build configuration list for PBXNativeTarget "BoomNews" */;
+			buildPhases = (
+				D60AF1CE1D2F3C3F0055E4F5 /* Sources */,
+				D60AF1CF1D2F3C3F0055E4F5 /* Frameworks */,
+				D60AF1D01D2F3C3F0055E4F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoomNews;
+			productName = BoomNews;
+			productReference = D60AF1D21D2F3C3F0055E4F5 /* BoomNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D60AF1CA1D2F3C3F0055E4F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jojo;
+				TargetAttributes = {
+					D60AF1D11D2F3C3F0055E4F5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = D60AF1CD1D2F3C3F0055E4F5 /* Build configuration list for PBXProject "BoomNews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D60AF1C91D2F3C3F0055E4F5;
+			productRefGroup = D60AF1D31D2F3C3F0055E4F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D60AF1D11D2F3C3F0055E4F5 /* BoomNews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D60AF1D01D2F3C3F0055E4F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60AF1E81D2F3C3F0055E4F5 /* LaunchScreen.storyboard in Resources */,
+				D60AF1E51D2F3C3F0055E4F5 /* Assets.xcassets in Resources */,
+				D60AF1E01D2F3C3F0055E4F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D60AF1CE1D2F3C3F0055E4F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60AF1FA1D2F3F0D0055E4F5 /* UserViewController.m in Sources */,
+				D60AF1DA1D2F3C3F0055E4F5 /* AppDelegate.m in Sources */,
+				D60AF1D71D2F3C3F0055E4F5 /* main.m in Sources */,
+				D60AF1F71D2F3EF90055E4F5 /* TopicViewController.m in Sources */,
+				D60AF1E31D2F3C3F0055E4F5 /* BoomNews.xcdatamodeld in Sources */,
+				D60AF1F11D2F3ED10055E4F5 /* HomeViewController.m in Sources */,
+				D60AF1F41D2F3EDE0055E4F5 /* MediaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D60AF1DE1D2F3C3F0055E4F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D60AF1DF1D2F3C3F0055E4F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D60AF1E61D2F3C3F0055E4F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D60AF1E71D2F3C3F0055E4F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D60AF1EA1D2F3C3F0055E4F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D60AF1EB1D2F3C3F0055E4F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D60AF1ED1D2F3C3F0055E4F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BoomNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lanou.BoomNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D60AF1EE1D2F3C3F0055E4F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BoomNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lanou.BoomNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D60AF1CD1D2F3C3F0055E4F5 /* Build configuration list for PBXProject "BoomNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60AF1EA1D2F3C3F0055E4F5 /* Debug */,
+				D60AF1EB1D2F3C3F0055E4F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D60AF1EC1D2F3C3F0055E4F5 /* Build configuration list for PBXNativeTarget "BoomNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60AF1ED1D2F3C3F0055E4F5 /* Debug */,
+				D60AF1EE1D2F3C3F0055E4F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D60AF1E11D2F3C3F0055E4F5 /* BoomNews.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D60AF1E21D2F3C3F0055E4F5 /* BoomNews.xcdatamodel */,
+			);
+			currentVersion = D60AF1E21D2F3C3F0055E4F5 /* BoomNews.xcdatamodel */;
+			path = BoomNews.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D60AF1CA1D2F3C3F0055E4F5 /* Project object */;
+}
